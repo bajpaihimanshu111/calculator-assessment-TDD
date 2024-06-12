@@ -19,3 +19,8 @@ test('subtract 21 - 25 to equal 4', () => {
     const calculator = new Calculator();
     expect (calculator.subtract(21,25)).toBe(4)
 })
+
+test('multiply 4 * 6 to equal 24', () => {
+    const calculator = new Calculator();
+    expect (calculator.multiply(4,6)).toBe(24)
+})

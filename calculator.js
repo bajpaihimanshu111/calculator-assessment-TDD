@@ -15,7 +15,12 @@ class Calculator {
     subtract(a, b) {
         this.validateInput(a, b);
         return a < b ? b - a : a - b;
-      }
+    }
+
+    multiply(a,b){
+        this.validateInput(a,b);
+        return a*b;
+    }
     
   }
   
