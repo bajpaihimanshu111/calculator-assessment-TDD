@@ -1,0 +1,22 @@
+{
+  "name": "calculator-assessment-tdd",
+  "version": "1.0.0",
+  "description": "this is an assessment of creating a calculator with TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bajpaihimanshu111/calculator-assessment-TDD.git"
+  },
+  "author": "himanshu bajpai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bajpaihimanshu111/calculator-assessment-TDD/issues"
+  },
+  "homepage": "https://github.com/bajpaihimanshu111/calculator-assessment-TDD#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
