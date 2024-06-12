@@ -34,3 +34,13 @@ test('divide 20 / 4 to equal 5', () => {
     const calculator = new Calculator();
     expect (calculator.divide(20,4)).toBe(5)
 })
+
+test('exponentiation of 2 ^ 4 to equal 8', () => {
+    const calculator = new Calculator()
+    expect(calculator.exponentiate(2,4)).toBe(8)
+})
+
+test('exponentiation of 2 ^ 3 to equal 8', () => {
+    const calculator = new Calculator()
+    expect(calculator.exponentiate(2,3)).toBe(8)
+})

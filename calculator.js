@@ -29,6 +29,11 @@ class Calculator {
         }
         return a/b;
     }
+
+    exponentiate(base, power){
+        this.validateInput(base, power);
+        return Math.pow(base, power)
+    }
     
   }
   
