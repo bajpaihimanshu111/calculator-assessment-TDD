@@ -12,10 +12,10 @@ class Calculator {
         return a + b;
     }
 
-    subtract(a,b){
-        this.validateInput(a,b);
-        return a-b;
-    }
+    subtract(a, b) {
+        this.validateInput(a, b);
+        return a < b ? b - a : a - b;
+      }
     
   }
   
