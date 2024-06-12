@@ -21,6 +21,11 @@ class Calculator {
         this.validateInput(a,b);
         return a*b;
     }
+
+    divide(a,b){
+        this.validateInput(a,b);
+        return a/b;
+    }
     
   }
   

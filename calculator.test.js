@@ -24,3 +24,8 @@ test('multiply 4 * 6 to equal 24', () => {
     const calculator = new Calculator();
     expect (calculator.multiply(4,6)).toBe(24)
 })
+
+test('divide 10 / 2 to equal 5', () => {
+    const calculator = new Calculator();
+    expect (calculator.divide(10,0)).toBe(5)
+})
