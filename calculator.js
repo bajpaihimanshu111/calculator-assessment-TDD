@@ -1,7 +1,6 @@
 class Calculator {
 
     validateInput(a,b){
-        //console.log(typeof a, typeof b)
         if(typeof a !== 'number' || typeof b !== 'number'){
             throw new Error('Invalid input: inputs must be numbers');
         }
