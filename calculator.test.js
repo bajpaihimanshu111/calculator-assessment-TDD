@@ -44,3 +44,9 @@ test('exponentiation of 2 ^ 3 to equal 8', () => {
     const calculator = new Calculator()
     expect(calculator.exponentiate(2,3)).toBe(8)
 })
+
+test('throws error for non-numeric input', () => {
+    const calculator = new Calculator();
+    expect(() => calculator.add('a', 2)).toThrow('Invalid input: inputs must be numbers only');
+    expect(() => calculator.subtract(2, 'b')).toThrow('Invalid input: inputs must be numbers only');
+  });
